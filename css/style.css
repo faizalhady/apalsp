@@ -257,7 +257,7 @@ a:focus {
 .navbar-brand span {
   font-weight: bold;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 2px;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -990,3 +990,108 @@ a:focus {
 }
 
 /* /////////////////////// */
+
+.responsive-org-chart {
+  width: 100%;
+  height: 1000px;
+  object-fit: cover;
+
+  @media (max-width: 768px) {
+    height: 500px;  
+  }
+
+  @media (max-width: 480px) {
+    height: 300px;  
+  }
+}
+
+.responsive-vision-mission {
+  width: 100%;
+  max-width: 1700px; 
+  height: auto; 
+  object-fit: contain; 
+}
+
+@media (max-width: 768px) {
+  .responsive-vision-mission {
+    width: 100%;
+    max-width: 100%;
+    height: auto; 
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-vision-mission {
+    width: 100%;
+    max-width: 100%;
+    height: auto; 
+  }
+}
+
+@media (max-width: 768px) {
+  .service_section .detail-box {
+    padding: 9px;
+  }
+}
+
+/* Default styles for larger screens */
+.info_logo .navbar-brand span {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.info_logo .navbar-brand img {
+  width: 60px;
+  height: 63px;
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+  .info_logo .navbar-brand span {
+      font-size: 35px; /* Smaller font size for tablets */
+  }
+
+  .info_logo .navbar-brand img {
+      width: 45px; /* Smaller image size for tablets */
+      height: 48px;
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+  .info_logo .navbar-brand span {
+      font-size: 25px; /* Smaller font size for mobile */
+  }
+
+  .info_logo .navbar-brand img {
+      width: 35px; /* Smaller image size for mobile */
+      height: 37px;
+  }
+}
+
+
+
+/* Default styles for desktop */
+.img-box img {
+  width: 500px;
+  height: 410px;
+  display: block; /* Ensures image is treated as a block element */
+  margin: 0 auto; /* Center the image */
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+  .img-box {
+      display: flex;
+      justify-content: center; /* Centers the image horizontally */
+      align-items: center; /* Centers the image vertically */
+  }
+
+  .img-box img {
+      width: 350px;
+      height: 380px;
+      padding: 5%;
+      margin: 0 auto; /* Center the image horizontally */
+  }
+}
+

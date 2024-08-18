@@ -17,6 +17,11 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- FONT AWESOME CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnH1zTY+9aLWE2ikH93KN6KWo72UzzVd1UwNq1p5OVsuyZlR8o8UOGf1mjzz6f8d1YfsQkV9g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap"
@@ -33,19 +38,19 @@
     <!-- header section strats -->
     <div class="hero_bg_box">
       <div class="img-box">
-        <img src="images/kedai.png" alt="">
+        <img src="images/kedai.png" alt="" style="width: 100%; height: 100%; padding: 0;">
       </div>
     </div>
 
     <header class="header_section">
-      
+
       <div class="header_bottom">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="index.html">
-              <span>
-                APAL AUTO
-              </span>
+              <span style="font-size: 24px;">
+                APAL <img src="images/logo-nobg.png" alt="" style="width: 30px; height: 33px;"> AUTO
+            </span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,7 +69,7 @@
                   <a class="nav-link" href="service.html"> Services </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="guard.html"> Our Team </a>
+                  <a class="nav-link" href="team.html"> Our Team </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact us</a>
@@ -80,6 +85,7 @@
 
   <!-- service section -->
 
+
   <section class="service_section layout_padding ">
     <div class="container">
       <div class="heading_container heading_center">
@@ -90,8 +96,11 @@
       <div class="row">
         <div class="col-md-4">
           <div class="box ">
-
+            <div class="icon-box">
+              <img src="images/icons/tyre.png" alt="Tyre Icon" style="width: 70px; height: 70px;">
+            </div>
             <div class="detail-box">
+
               <h6>
                 Tyre Services
               </h6>
@@ -104,7 +113,9 @@
         </div>
         <div class="col-md-4">
           <div class="box ">
-
+            <div class="icon-box">
+              <img src="images/icons/service.png" alt="Tyre Icon" style="width: 70px; height: 70px;">
+            </div>
             <div class="detail-box">
               <h6>
                 Auto Maintenance & Repair
@@ -118,15 +129,18 @@
         </div>
         <div class="col-md-4">
           <div class="box ">
-
+            <div class="icon-box">
+              <img src="images/icons/parts.png" alt="Tyre Icon" style="width: 70px; height: 70px;">
+            </div>
             <div class="detail-box">
               <h6>
                 Parts & Accessories
               </h6>
               <p>
-                High-quality parts and accessories sales with professional installation services, ensuring quality for all vehicle types.
+                High-quality parts and accessories sales with professional installation services, ensuring quality for
+                all vehicle types.
               </p>
-              
+
             </div>
           </div>
         </div>
@@ -134,6 +148,9 @@
       <div class="row justify-content-center">
         <div class="col-md-4">
           <div class="box">
+            <div class="icon-box">
+              <img src="images/icons/car-sales.png" alt="Tyre Icon" style="width: 80px; height: 80px;">
+            </div>
             <div class="detail-box">
               <h6>
                 Used Car Sales
@@ -146,20 +163,26 @@
         </div>
         <div class="col-md-4">
           <div class="box">
+            <div class="icon-box">
+              <img src="images/icons/recon.png" alt="Tyre Icon" style="width: 80px; height: 80px;">
+            </div>
             <div class="detail-box">
               <h6>
-                Motorcycle Sales
+                Imported Cars (Recon) 
               </h6>
               <p>
-                Reliable sales and purchase options for motorcycles, catering to all types of riders.
+                Sales of imported reconditioned cars
+                <br>
+                <br>
+                *In progress
               </p>
             </div>
           </div>
         </div>
       </div>
-      
-      
-      
+
+
+
     </div>
   </section>
 
@@ -168,95 +191,89 @@
   <!-- info section -->
   <section class="info_section">
     <div class="container">
-        <div class="row">
-            <!-- APAL AUTO Logo -->
-            <div class="col-md-3 d-flex align-items-center justify-content-center">
-                <div class="info_logo">
-                    <a class="navbar-brand" href="index.html">
-                        <span style="font-size: 36px; font-weight: bold;">
-                            APAL AUTO
-                        </span>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Push content to the right -->
-            <div class="col-md-9 d-flex justify-content-end">
-                <div class="row w-100 justify-content-end text-right">
-                    <!-- Navigation List -->
-                    <div class="col-md-4">
-                        <div class="info_nav">
-                            <h5>Quick Links</h5>
-                            <ul style="list-style: none; padding: 0;">
-                                <li><a href="index.html" style="text-decoration: none; color: inherit; font-size: 16px;">Home</a></li>
-                                <li><a href="about.html" style="text-decoration: none; color: inherit; font-size: 16px;">About Us</a></li>
-                                <li><a href="services.html" style="text-decoration: none; color: inherit; font-size: 16px;">Services</a></li>
-                                <li><a href="team.html" style="text-decoration: none; color: inherit; font-size: 16px;">Our Team</a></li>
-                                <li><a href="contact.html" style="text-decoration: none; color: inherit; font-size: 16px;">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Contact Information -->
-                    <div class="col-md-4">
-                        <div class="info_info">
-                            <h5>Contact Us</h5>
-                        </div>
-                        <div class="info_contact">
-                            <div style="font-size: 16px;">
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                <span>
-                                    A-126, Jalan 1B Kawasan Perusahaan Miel, Sungai Petani, Kedah DA
-                                </span>
-                            </div>
-                            <div style="font-size: 16px;">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <span>
-                                    Call : +04-446 1047
-                                </span>
-                            </div>
-                            <div style="font-size: 16px;">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                                <span>
-                                    info@apalsp.com
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Social Media Links -->
-                    <div class="col-md-0 px-9" style="padding-left: 15px;">
-                      <div class="info_form">
-                          <div class="social_box" style="display: flex; flex-direction: column; align-items: flex-start;">
-                              <a href="https://www.facebook.com/p/Kedai-Tayar-Apal-SP-100063686510482/">
-                                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                              </a>
-                              <a href="https://www.instagram.com/kedaitayarapalsp/">
-                                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  
-                </div>
-            </div>
+      <div class="row">
+        <!-- APAL AUTO Logo -->
+        <div class="col-md-3 d-flex align-items-center justify-content-center">
+          <div class="info_logo">
+            <a class="navbar-brand" href="index.html">
+              <span style="font-size: 50px; font-weight: bold;">
+                APAL <img src="images/logo-nobg.png" alt="" style="width: 60px; height: 63px;"> AUTO
+              </span>
+            </a>
+          </div>
         </div>
+
+        <!-- Push content to the right -->
+        <div class="col-md-9 d-flex justify-content-end">
+          <div class="row w-100 justify-content-end text-right">
+            <!-- Navigation List -->
+            <div class="col-md-4">
+              <div class="info_nav">
+                <h5>Quick Links</h5>
+                <ul style="list-style: none; padding: 0;">
+                  <li><a href="index.html" style="text-decoration: none; color: inherit; font-size: 16px;">Home</a></li>
+                  <li><a href="about.html" style="text-decoration: none; color: inherit; font-size: 16px;">About Us</a>
+                  </li>
+                  <li><a href="service.html"
+                      style="text-decoration: none; color: inherit; font-size: 16px;">Services</a></li>
+                  <li><a href="team.html" style="text-decoration: none; color: inherit; font-size: 16px;">Our Team</a>
+                  </li>
+                  <li><a href="contact.html" style="text-decoration: none; color: inherit; font-size: 16px;">Contact
+                      Us</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col-md-4">
+              <div class="info_info">
+                <h5>Contact Us</h5>
+              </div>
+              <div class="info_contact">
+                <div style="font-size: 16px;">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>
+                    A-126, Jalan 1B Kawasan Perusahaan Miel, Sungai Petani, Kedah DA
+                  </span>
+                </div>
+                <div style="font-size: 16px;">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>
+                    <a href="tel:+044461047">Call : +04-446 1047</a>
+                  </span>
+                </div>
+                <div style="font-size: 16px;">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span>
+                    <a href="mailto:info@apalsp.com">info@apalsp.com</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="col-md-0 px-9" style="padding-left: 15px;">
+              <div class="info_form">
+                <div class="social_box" style="display: flex; flex-direction: column; align-items: flex-start;">
+                  <a href="https://www.facebook.com/profile.php?id=61564214969615/">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://www.instagram.com/apalspauto/">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
   <!-- end info_section -->
 
 
-
-
-  <!-- footer section -->
-  <footer class="container-fluid footer_section">
-    <p>
-      &copy; <span id="currentYear"></span> All Rights Reserved. Design by
-      <a href="https://html.design/">Free Html Templates</a>
-    </p>
-  </footer>
-  <!-- footer section -->
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
